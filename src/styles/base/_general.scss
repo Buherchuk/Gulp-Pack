@@ -1,0 +1,56 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+div,
+header,
+section,
+footer
+{
+  background-color: silver;
+  border: 1px solid black;
+}
+.header, footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  margin-bottom: 5%;
+}
+.main-info{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 60vh;
+  background-color: white;
+  border: none;
+}
+.aside{
+  height: 60vh;
+  background-color:silver;
+  width: 28%;
+}
+.secion{
+  height: 60vh;
+  background-color:silver;
+  width: 68%;
+}
+footer{
+  height: 10vh;
+  margin-top: 5%;
+}
+
+
+

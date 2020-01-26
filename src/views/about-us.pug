@@ -1,0 +1,22 @@
+extends layouts/default
+include helpers/mixins
+
+block variables
+	- const title = "Logos gulp-pug-starter"
+
+block.content
+	header.header
+		.logo logo
+		.nav
+			ul
+				li Home
+				li About us
+				li Login
+	section.main-info
+		.secion Some info about us
+		.aside The same info about us
+	footer.footer
+		.copyright copyright
+
+
+
